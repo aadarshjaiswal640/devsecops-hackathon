@@ -1,1 +1,48 @@
-[]
+[
+ {
+  "RuleID": "custom-secret",
+  "Description": "Detect SECRET_KEY and DB_PASSWORD",
+  "StartLine": 3,
+  "EndLine": 3,
+  "StartColumn": 1,
+  "EndColumn": 31,
+  "Match": "SECRET_KEY = \"super-secret-key\"",
+  "Secret": "SECRET_KEY",
+  "File": "challenge1/app.py",
+  "SymlinkFile": "",
+  "Commit": "8d0441ceffe97cce84f06afa72ad39d393172ec8",
+  "Link": "https://github.com/aadarshjaiswal640/devsecops-hackathon/blob/8d0441ceffe97cce84f06afa72ad39d393172ec8/challenge1/app.py#L3",
+  "Entropy": 2.8464394,
+  "Author": "aadarshjaiswal640",
+  "Email": "aj5076@srmist.edu.in",
+  "Date": "2026-06-05T06:00:37Z",
+  "Message": "added additional secrets",
+  "Tags": [
+   "secret"
+  ],
+  "Fingerprint": "8d0441ceffe97cce84f06afa72ad39d393172ec8:challenge1/app.py:custom-secret:3"
+ },
+ {
+  "RuleID": "custom-secret",
+  "Description": "Detect SECRET_KEY and DB_PASSWORD",
+  "StartLine": 4,
+  "EndLine": 4,
+  "StartColumn": 2,
+  "EndColumn": 29,
+  "Match": "DB_PASSWORD = \"Password123!\"",
+  "Secret": "DB_PASSWORD",
+  "File": "challenge1/app.py",
+  "SymlinkFile": "",
+  "Commit": "8d0441ceffe97cce84f06afa72ad39d393172ec8",
+  "Link": "https://github.com/aadarshjaiswal640/devsecops-hackathon/blob/8d0441ceffe97cce84f06afa72ad39d393172ec8/challenge1/app.py#L4",
+  "Entropy": 3.0957952,
+  "Author": "aadarshjaiswal640",
+  "Email": "aj5076@srmist.edu.in",
+  "Date": "2026-06-05T06:00:37Z",
+  "Message": "added additional secrets",
+  "Tags": [
+   "secret"
+  ],
+  "Fingerprint": "8d0441ceffe97cce84f06afa72ad39d393172ec8:challenge1/app.py:custom-secret:4"
+ }
+]

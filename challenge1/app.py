@@ -1,7 +1,12 @@
-AWS_KEY = "AKIAIOSFODNN7EXAMPLE123"
-DB_URL = "postgresql://admin:SuperSecret99@localhost/prod"
-SECRET_KEY = "super-secret-key"
-DB_PASSWORD = "Password123!"
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+AWS_KEY = os.getenv("AWS_KEY")
+DB_URL = os.getenv("DB_URL")
+SECRET_KEY = os.getenv("SECRET_KEY")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 def connect_to_database():
     print("Connecting to production database...")
