@@ -1,3 +1,6 @@
+AWS_KEY = "AKIAIOSFODNN7EXAMPLE123"
+DB_URL = "postgresql://admin:SuperSecret99@localhost/prod"
+
 def connect_to_database():
     print("Connecting to production database...")
 
