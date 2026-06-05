@@ -1,0 +1,7 @@
+title = "Custom Rules"
+
+[[rules]]
+id = "custom-secret"
+description = "Detect SECRET_KEY and DB_PASSWORD"
+regex = '''(SECRET_KEY|DB_PASSWORD)\s*=.*'''
+tags = ["secret"]
